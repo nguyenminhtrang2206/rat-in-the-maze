@@ -16,12 +16,43 @@ class Maze extends Component {
         return this.matrix[this.idx];
     }
 
+    findColor  = (path) => {
+
+    }
+
+    generateMatrix = () => {
+        for (let i=0; i<14; i++){
+            let val = Math.floor(Math.random()*4)
+            if(val == 0) {
+                this.matrix.push(0);
+            } else {
+                this.matrix.push(2);
+            }
+        }
+        this.matrix.push(2);
+    };
+
+    inMaze = (x,y,visited) => {
+        //if cell is valid return true
+    }
+
+    calculatePaths = () => {
+
+    };
+
+    mazeUtil = (visited, x, y, currentPath) => {
+
+    }
     handleClick = (e) => {
         e.preventDefault();
         window.location.reload(false);
     }
 
     render() {
+        this.matrix=new Array();
+        this.matrix = [2];
+        this.generateMatrix();
+        
         return (
             <div>
                 <center>

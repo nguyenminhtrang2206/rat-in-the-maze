@@ -9,7 +9,7 @@ const style1 = {
 
 const style2 = {
     paper:{
-        background: "#4CAF50"
+        background: "#FF0000"
     },
 };
 
