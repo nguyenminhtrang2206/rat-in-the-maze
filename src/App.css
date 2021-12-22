@@ -1,9 +1,12 @@
-
+body {
+	background-color: rgb(255, 200, 196);
+}
 .App {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	border-bottom: 1px solid black;
 }
 
 .maze {
@@ -13,5 +16,6 @@
 
 #count {
 	margin-top: 2rem;
+	font-size: larger;
 }
 

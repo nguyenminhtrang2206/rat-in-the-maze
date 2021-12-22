@@ -188,13 +188,13 @@ class Maze extends Component {
 
 				<Button
 					onClick={this.handleClick}
-					style={{ margin: "1rem", backgroundColor: "lightgrey" }}
+					style={{ margin: "1rem", backgroundColor: "yellow", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}
 				>
 					Generate new maze
 				</Button>
 				<Button
 					onClick={this.findPaths}
-					style={{ margin: "1rem", backgroundColor: "#80ed99" }}
+					style={{ margin: "1rem", backgroundColor: "green", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px", color: "white" }}
 				>
 					Find the cheese
 				</Button>
